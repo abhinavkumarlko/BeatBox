@@ -1,0 +1,111 @@
+
+body {
+  background-color: #a40065;
+  position: relative;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.scrollspy-example {
+  position: relative;
+  height: 28vw;
+  overflow: auto;
+  background-color: black;
+  margin:0% ;padding:0%;
+  width: 55vw;
+  color: aqua;
+} 
+
+
+.bottom{
+position: sticky;
+bottom: 0;
+height: 17vh;
+background-color: black;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column; 
+margin-top: 20px;
+}
+
+
+#masterSongName{
+color: aquamarine;
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: 600;
+font-size: 22px;
+font-style: italic;
+font-family: 'Permanent Marker', cursive;
+}
+
+
+.icons{
+margin-top: 14px; 
+}
+.icons i{
+cursor: pointer;
+}
+
+#myProgressBar{
+width: 80vw; 
+cursor: pointer;
+}
+
+.songItemContainer{
+margin-top: 34px;
+}
+
+.songItem{
+height: 55px;
+display: flex;
+background-color: rgb(255, 232, 232);
+width: 100%;
+color: black;
+margin: 36px 0;
+justify-content: space-between;
+align-items: center;
+border-radius: 34px;
+
+}
+
+.songItem img{
+width: 54px;
+margin: 0 23px;
+border-radius: 34px;
+}
+
+.timestamp{
+margin : 0 23px;
+font-size: 22px;
+font-weight: 500;
+}
+
+.timestamp i{
+cursor: pointer;
+}
+
+
+
+#gif{
+opacity: 0;
+transition: opacity 0.5s ease-in;
+border-radius: 10px;
+margin:0% ;padding:0% ;height:57vh;overflow: hidden; background: url(musicgif.gif);
+}
+.songName {
+font-size: 22px;
+font-weight: 700;
+color: #ce0000;
+font-family: 'Permanent Marker', cursive;
+font-style: italic;
+overflow: hidden;
+}
+
+
+
